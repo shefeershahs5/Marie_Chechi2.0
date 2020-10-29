@@ -53,7 +53,7 @@ def promote(bot: Bot, update: Update, args: List[str]) -> str:
                           can_pin_messages=bot_member.can_pin_messages,
                           can_promote_members=bot_member.can_promote_members)
 
-    message.reply_text("സ്ഥാനക്കയറ്റം കൊടുത്തിട്ടുണ്ട്! 👍🏻")
+    message.reply_text( നിങ്ങൾ പറഞ്ഞ പോലെ അഡ്മിൻ സ്ഥാനം കൊടുത്തിട്ട് ഉണ്ട് ! 👍🏻")
     return "<b>{}:</b>" \
            "\n#PROMOTED" \
            "\n<b>Admin:</b> {}" \
